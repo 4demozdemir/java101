@@ -9,7 +9,7 @@ public class Main {
             alan = Math.PI * radius *radius;
             cevre= Math.PI *radius * 2 ;
     System.out.println("Alan : " + alan );
-    System.out.println("Cevre : s"+ cevre);
+    System.out.println("Cevre : "+ cevre);
 
     }
 }
