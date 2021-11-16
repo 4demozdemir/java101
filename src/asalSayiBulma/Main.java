@@ -24,6 +24,5 @@ public class Main {
         }else{
             System.out.println("1 ile 100 arasında bir sayı giriniz ...");
         }
-
     }
 }
