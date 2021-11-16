@@ -25,4 +25,5 @@ public class Main {
             System.out.println("1 ile 100 arasında bir sayı giriniz ...");
         }
     }
+    
 }
