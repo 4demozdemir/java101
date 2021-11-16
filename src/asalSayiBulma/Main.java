@@ -8,17 +8,21 @@ public class Main {
         System.out.print("Bir sayı giriniz : ");
         int kontrol = 0;
         int sayi = input.nextInt();
+        if (sayi>1 && sayi<100){
+            for (int i = 2; i < sayi; i++) {
+                if (sayi%i == 0) {
+                    kontrol++;
+                }
 
-        for (int i = 2; i < sayi; i++) {
-            if (sayi%i == 0) {
-                kontrol++;
+            }
+            if (kontrol==0){
+                System.out.println("Asal sayıdır ");
+            }else{
+                System.out.println("Asal sayı değildir. ");
             }
 
-        }
-        if (kontrol==0){
-            System.out.println("Asal sayıdır ");
         }else{
-            System.out.println("Asal sayı değildir. ");
+            System.out.println("1 ile 100 arasında bir sayı giriniz ...");
         }
 
     }
