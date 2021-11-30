@@ -34,7 +34,9 @@ public class Main {
                 }
             }
 
+
             System.out.println(list[i] + " sayısı " + count + " kere tekrar edildi.");
+
         }
     }
 }
